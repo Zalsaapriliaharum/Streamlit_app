@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import pickle  #to load a saved model
 import base64  #to open .gif files in streamlit app
-import scikit learn
 
 @st.cache(suppress_st_warning=True)
 def get_fvalue(val):
